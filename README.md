@@ -1,3 +1,8 @@
+# getin协议
+
+# v0.1.0
+
+## Overview
 
 * 将复杂object序列化为url的通用协议。便于书写表达丰富的http-get请求。
 * 协议名getin寓意从get方法中也可以取出丰富内容。
