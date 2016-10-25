@@ -20,7 +20,7 @@
     5. 不能用[=](#=)号的地方用[~](#~)代替
     6. 不能用[&](#&)号的地方用[+](#+)代替
     7. 同级别的[键](#键)按从左到右的顺序读
-    8. 忽略覆盖定义
+    8. 覆盖定义:数组追加,其余忽略
 
 ## Examples
 * 实例1:
@@ -75,5 +75,5 @@ var sample = {
   }
 };
 
-var sampleUrl = "?key_obj=magic_obj~name~jack+magic_obj~method_obj~jump";
+var sampleUrl = "?key_obj=magic_obj~name~jack+magic_obj~method_obj~want~jump";
 ```
