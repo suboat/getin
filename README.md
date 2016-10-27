@@ -82,14 +82,14 @@ var sampleUrl = "?key_obj=magic_obj~name~jack+magic_obj~method_obj~want~jump";
 * 实例5, songo-query(https://github.com/suboat/songo):
 ```javascript
 var sample = {
-  limit: 10,
-  skip: 20,
+  limit: "10",
+  skip: "20",
   key: {
     category: "base",
-    create$and$:["$gte$20161001", "$lte$20161030"]
+    $and$create:["$gte$20161001", "$lte$20161030"]
   }
 };
 
-var sampleUrl = "?limit_int=10&skip_skip=20&key_obj=category~base&key_obj=create$and$_lis~$gte$20161001&key_obj=create$and$_lis~$gte$20161001";
-var samplejsn = '{"key":{"category":"base","create$and$":["$gte$20161001","$gte$20161001"]},"limit":10,"skip_skip":"20"}';
+var sampleUrl = "?limit=10&skip=20&key_obj=category~base&key_obj=$and$create_lis~$gte$20161001&key_obj=$and$create_lis~$gte$20161001";
+var samplejsn = '{"key":{"category":"base","$and$create":["$gte$20161001","$gte$20161001"]},"limit":"10","skip":"20"}';
 ```
