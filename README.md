@@ -90,6 +90,6 @@ var sample = {
   }
 };
 
-var sampleUrl = "?limit=10&skip=20&key_obj=category~base&key_obj=$and$create_lis~$gte$20161001&key_obj=$and$create_lis~$gte$20161001";
-var samplejsn = '{"key":{"category":"base","$and$create":["$gte$20161001","$gte$20161001"]},"limit":"10","skip":"20"}';
+var sampleUrl = "?limit=10&skip=20&key_obj=category~base&key_obj=$and$create_lis~$gte$20161001&key_obj=$and$create_lis~$lte$20161030";
+var samplejsn = '{"key":{"category":"base","$and$create":["$gte$20161001","$lte$20161030"]},"limit":"10","skip":"20"}';
 ```
